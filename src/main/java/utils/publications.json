@@ -1,0 +1,352 @@
+[
+    {
+        "color": "green",
+        "latitude": 46.95,
+        "longitude": 21.71,
+        "make": "MAN",
+        "speed": 19.94
+    },
+    {
+        "color": "white",
+        "latitude": 46.03,
+        "longitude": 29.07,
+        "make": "Volvo",
+        "speed": 57.14
+    },
+    {
+        "color": "black",
+        "latitude": 45.49,
+        "longitude": 27.04,
+        "make": "MAN",
+        "speed": 129.68
+    },
+    {
+        "color": "red",
+        "latitude": 44.62,
+        "longitude": 28.18,
+        "make": "MAN",
+        "speed": 5.77
+    },
+    {
+        "color": "white",
+        "latitude": 45.82,
+        "longitude": 28.05,
+        "make": "Renault",
+        "speed": 122.55
+    },
+    {
+        "color": "green",
+        "latitude": 47.09,
+        "longitude": 22.45,
+        "make": "DAF",
+        "speed": 134.92
+    },
+    {
+        "color": "black",
+        "latitude": 45.66,
+        "longitude": 23.86,
+        "make": "MAN",
+        "speed": 5.1
+    },
+    {
+        "color": "green",
+        "latitude": 43.76,
+        "longitude": 23.87,
+        "make": "Volvo",
+        "speed": 4.4
+    },
+    {
+        "color": "black",
+        "latitude": 47.02,
+        "longitude": 20.75,
+        "make": "Scania",
+        "speed": 119.09
+    },
+    {
+        "color": "green",
+        "latitude": 46.81,
+        "longitude": 20.54,
+        "make": "Iveco",
+        "speed": 103.99
+    },
+    {
+        "color": "red",
+        "latitude": 45.42,
+        "longitude": 28.16,
+        "make": "Iveco",
+        "speed": 125.35
+    },
+    {
+        "color": "black",
+        "latitude": 45.32,
+        "longitude": 29.34,
+        "make": "Scania",
+        "speed": 51.67
+    },
+    {
+        "color": "white",
+        "latitude": 46.9,
+        "longitude": 25.54,
+        "make": "Scania",
+        "speed": 34.03
+    },
+    {
+        "color": "white",
+        "latitude": 47.89,
+        "longitude": 26.44,
+        "make": "Iveco",
+        "speed": 119.51
+    },
+    {
+        "color": "green",
+        "latitude": 44.16,
+        "longitude": 26.03,
+        "make": "DAF",
+        "speed": 7.05
+    },
+    {
+        "color": "red",
+        "latitude": 47.27,
+        "longitude": 28.67,
+        "make": "Iveco",
+        "speed": 64.79
+    },
+    {
+        "color": "green",
+        "latitude": 45.49,
+        "longitude": 29.07,
+        "make": "Iveco",
+        "speed": 38.72
+    },
+    {
+        "color": "white",
+        "latitude": 44.38,
+        "longitude": 22.31,
+        "make": "Scania",
+        "speed": 133.94
+    },
+    {
+        "color": "white",
+        "latitude": 43.5,
+        "longitude": 28.88,
+        "make": "Volvo",
+        "speed": 141.66
+    },
+    {
+        "color": "red",
+        "latitude": 47.64,
+        "longitude": 21.05,
+        "make": "Renault",
+        "speed": 15.57
+    },
+    {
+        "color": "black",
+        "latitude": 44.38,
+        "longitude": 21.42,
+        "make": "Volvo",
+        "speed": 53.78
+    },
+    {
+        "color": "red",
+        "latitude": 47.76,
+        "longitude": 26.81,
+        "make": "MAN",
+        "speed": 116.53
+    },
+    {
+        "color": "red",
+        "latitude": 47.29,
+        "longitude": 27.98,
+        "make": "Iveco",
+        "speed": 118.76
+    },
+    {
+        "color": "red",
+        "latitude": 47.69,
+        "longitude": 26.82,
+        "make": "DAF",
+        "speed": 38.56
+    },
+    {
+        "color": "yellow",
+        "latitude": 44.62,
+        "longitude": 27.6,
+        "make": "Iveco",
+        "speed": 146.08
+    },
+    {
+        "color": "black",
+        "latitude": 47.0,
+        "longitude": 22.65,
+        "make": "Volvo",
+        "speed": 67.83
+    },
+    {
+        "color": "black",
+        "latitude": 45.72,
+        "longitude": 26.25,
+        "make": "Scania",
+        "speed": 25.87
+    },
+    {
+        "color": "white",
+        "latitude": 46.92,
+        "longitude": 20.5,
+        "make": "Iveco",
+        "speed": 99.85
+    },
+    {
+        "color": "black",
+        "latitude": 46.14,
+        "longitude": 20.77,
+        "make": "DAF",
+        "speed": 130.28
+    },
+    {
+        "color": "black",
+        "latitude": 47.03,
+        "longitude": 23.58,
+        "make": "Iveco",
+        "speed": 118.29
+    },
+    {
+        "color": "black",
+        "latitude": 43.85,
+        "longitude": 27.8,
+        "make": "Scania",
+        "speed": 50.6
+    },
+    {
+        "color": "black",
+        "latitude": 44.91,
+        "longitude": 26.23,
+        "make": "DAF",
+        "speed": 76.88
+    },
+    {
+        "color": "white",
+        "latitude": 47.39,
+        "longitude": 27.0,
+        "make": "MAN",
+        "speed": 58.78
+    },
+    {
+        "color": "yellow",
+        "latitude": 47.11,
+        "longitude": 26.18,
+        "make": "DAF",
+        "speed": 78.9
+    },
+    {
+        "color": "red",
+        "latitude": 44.55,
+        "longitude": 27.24,
+        "make": "DAF",
+        "speed": 128.28
+    },
+    {
+        "color": "red",
+        "latitude": 44.1,
+        "longitude": 28.89,
+        "make": "Iveco",
+        "speed": 105.44
+    },
+    {
+        "color": "black",
+        "latitude": 44.7,
+        "longitude": 23.47,
+        "make": "Scania",
+        "speed": 66.94
+    },
+    {
+        "color": "yellow",
+        "latitude": 47.96,
+        "longitude": 24.64,
+        "make": "DAF",
+        "speed": 133.75
+    },
+    {
+        "color": "green",
+        "latitude": 45.73,
+        "longitude": 24.95,
+        "make": "Iveco",
+        "speed": 3.61
+    },
+    {
+        "color": "white",
+        "latitude": 46.08,
+        "longitude": 26.56,
+        "make": "Scania",
+        "speed": 36.79
+    },
+    {
+        "color": "black",
+        "latitude": 45.47,
+        "longitude": 26.67,
+        "make": "Renault",
+        "speed": 94.3
+    },
+    {
+        "color": "yellow",
+        "latitude": 44.52,
+        "longitude": 28.61,
+        "make": "DAF",
+        "speed": 62.51
+    },
+    {
+        "color": "green",
+        "latitude": 45.76,
+        "longitude": 21.56,
+        "make": "MAN",
+        "speed": 149.7
+    },
+    {
+        "color": "yellow",
+        "latitude": 45.94,
+        "longitude": 22.74,
+        "make": "Scania",
+        "speed": 110.0
+    },
+    {
+        "color": "red",
+        "latitude": 44.29,
+        "longitude": 23.3,
+        "make": "MAN",
+        "speed": 87.1
+    },
+    {
+        "color": "black",
+        "latitude": 44.75,
+        "longitude": 25.4,
+        "make": "Scania",
+        "speed": 46.25
+    },
+    {
+        "color": "white",
+        "latitude": 46.26,
+        "longitude": 26.88,
+        "make": "Volvo",
+        "speed": 65.73
+    },
+    {
+        "color": "green",
+        "latitude": 43.62,
+        "longitude": 21.33,
+        "make": "Scania",
+        "speed": 52.33
+    },
+    {
+        "color": "red",
+        "latitude": 43.66,
+        "longitude": 24.82,
+        "make": "DAF",
+        "speed": 40.88
+    },
+    {
+        "color": "green",
+        "latitude": 47.88,
+        "longitude": 24.42,
+        "make": "Iveco",
+        "speed": 0.35
+    }
+]

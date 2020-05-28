@@ -1,0 +1,1252 @@
+[
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 133.88
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 45.31
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 21.58
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 113.14
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 45.67
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 23.85
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 69.23
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 44.76
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 25.07
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 135.81
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 46.7
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 27.94
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 34.02
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 45.59
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 27.18
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 95.02
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 45.77
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 21.55
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Renault"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 31.9
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 46.21
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 27.1
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "MAN"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 11.51
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 46.47
+    },
+    {
+        "key": "longitude",
+        "operator": "=",
+        "value": 27.34
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "!=",
+        "value": 13.92
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 44.24
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 21.76
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 59.17
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 46.7
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 29.38
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 130.68
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 43.68
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 21.05
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 24.2
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 46.43
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 23.66
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 3.16
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 44.86
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 25.63
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "MAN"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 29.29
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 45.88
+    },
+    {
+        "key": "longitude",
+        "operator": "=",
+        "value": 22.96
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "MAN"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 19.92
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 47.39
+    },
+    {
+        "key": "longitude",
+        "operator": "=",
+        "value": 29.13
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 144.63
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 47.62
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 26.88
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 87.48
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 45.94
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 21.6
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 29.89
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 44.47
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 23.38
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 99.63
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 44.75
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 25.88
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 95.46
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 47.03
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 29.33
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "white"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 76.19
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 44.9
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 25.82
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 75.69
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 45.38
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 24.25
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 54.31
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 46.4
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 26.01
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "MAN"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 73.53
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 44.15
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 28.13
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 106.4
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 46.09
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 24.96
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Renault"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "white"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 62.15
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 45.57
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 29.44
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 23.94
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 43.82
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 24.25
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 112.76
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 44.67
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 24.27
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 114.86
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 45.53
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 20.72
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 96.3
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 44.57
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 27.95
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 59.73
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 43.64
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 21.93
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 65.74
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 47.92
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 20.57
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 47.18
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 48.06
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 22.07
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 87.35
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 45.9
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 29.44
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Renault"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 60.81
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 45.34
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 28.69
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 66.33
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 45.71
+    },
+    {
+        "key": "longitude",
+        "operator": "=",
+        "value": 26.0
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Renault"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 30.39
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 47.64
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 27.79
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": ">",
+        "value": 148.58
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 45.19
+    },
+    {
+        "key": "longitude",
+        "operator": ">",
+        "value": 20.6
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 73.4
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 47.51
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 26.18
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "yellow"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 60.54
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 44.42
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 27.76
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Renault"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 50.07
+    },
+    {
+        "key": "latitude",
+        "operator": "=",
+        "value": 47.73
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 26.5
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 141.61
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 43.79
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 22.72
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Renault"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 101.59
+    },
+    {
+        "key": "latitude",
+        "operator": "<",
+        "value": 45.46
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 21.43
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "white"
+    },
+    {
+        "key": "speed",
+        "operator": "=",
+        "value": 102.92
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 44.76
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 21.85
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "red"
+    },
+    {
+        "key": "speed",
+        "operator": "<=",
+        "value": 138.1
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 43.75
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 26.83
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Scania"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 42.35
+    },
+    {
+        "key": "latitude",
+        "operator": "!=",
+        "value": 47.58
+    },
+    {
+        "key": "longitude",
+        "operator": "<=",
+        "value": 22.4
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "DAF"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "white"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 75.35
+    },
+    {
+        "key": "latitude",
+        "operator": ">=",
+        "value": 47.65
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 26.58
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Iveco"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "black"
+    },
+    {
+        "key": "speed",
+        "operator": "<",
+        "value": 63.64
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 43.85
+    },
+    {
+        "key": "longitude",
+        "operator": ">=",
+        "value": 23.5
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "!=",
+        "value": "green"
+    },
+    {
+        "key": "speed",
+        "operator": ">=",
+        "value": 93.38
+    },
+    {
+        "key": "latitude",
+        "operator": "<=",
+        "value": 44.12
+    },
+    {
+        "key": "longitude",
+        "operator": "<",
+        "value": 22.36
+    },
+    {
+        "key": "make",
+        "operator": "=",
+        "value": "Volvo"
+    },
+    {
+        "key": "color",
+        "operator": "=",
+        "value": "white"
+    },
+    {
+        "key": "speed",
+        "operator": "!=",
+        "value": 64.25
+    },
+    {
+        "key": "latitude",
+        "operator": ">",
+        "value": 45.35
+    },
+    {
+        "key": "longitude",
+        "operator": "!=",
+        "value": 26.73
+    }
+]
