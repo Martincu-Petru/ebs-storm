@@ -1,28 +1,46 @@
+import bolt.CountBolt;
+import models.Publication;
+import models.Subscription;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
+import org.apache.storm.trident.operation.builtin.Count;
 import org.apache.storm.tuple.Fields;
+import spout.PublicationSpout;
+import spout.SubscriptionSpout;
+import utils.PublicationReader;
+import utils.SubscriptionReader;
 
-public class App
-{
-    private static final String SPOUT_ID = "source_text_spout";
-    private static final String SPLIT_BOLT_ID = "split_bolt";
-    private static final String COUNT_BOLT_ID = "count_bolt";
-    private static final String TERMINAL_BOLT_ID = "terminal_bolt";
+import java.util.List;
 
-    public static void main( String[] args ) throws Exception
-    {
+public class App {
+    private static final String PUB_SPOUT_ID = "pub_spout_id";
+    private static final String SUB_SPOUT_ID = "sub_spout_id";
+    private static final String COUNT_SUB_BOLT_ID = "count_sub_bolt_id";
+    private static final String COUNT_PUB_BOLT_ID = "count_pub_bolt_id";
+
+
+    static List<Publication> readPublications() {
+        PublicationReader reader = new PublicationReader();
+        return reader.getPublications();
+    }
+
+    static List<Subscription> readSubscriptions() {
+        SubscriptionReader reader = new SubscriptionReader();
+        return reader.getSubscriptions();
+    }
+
+    public static void main(String[] args) {
+        List<Publication> publications = readPublications();
+        List<Subscription> subscriptions = readSubscriptions();
+
         TopologyBuilder builder = new TopologyBuilder();
-        SourceTextSpout spout = new SourceTextSpout();
-        SplitTextBolt splitbolt = new SplitTextBolt();
-        WordCountBolt countbolt = new WordCountBolt();
-        TerminalBolt terminalbolt = new TerminalBolt();
+        builder.setSpout(PUB_SPOUT_ID, new PublicationSpout(publications));
+        builder.setSpout(SUB_SPOUT_ID, new SubscriptionSpout(subscriptions));
 
-        builder.setSpout(SPOUT_ID, spout);
-        builder.setBolt(SPLIT_BOLT_ID, splitbolt).shuffleGrouping(SPOUT_ID);
-        builder.setBolt(COUNT_BOLT_ID, countbolt).fieldsGrouping(SPLIT_BOLT_ID, new Fields("word"));
-        builder.setBolt(TERMINAL_BOLT_ID, terminalbolt).globalGrouping(COUNT_BOLT_ID);
+        builder.setBolt(COUNT_PUB_BOLT_ID, new CountBolt("publications")).allGrouping(PUB_SPOUT_ID);
+        builder.setBolt(COUNT_SUB_BOLT_ID, new CountBolt("subscriptions")).allGrouping(SUB_SPOUT_ID);
 
         Config config = new Config();
 
@@ -30,8 +48,8 @@ public class App
         StormTopology topology = builder.createTopology();
 
         // fine tuning
-        config.put(Config.TOPOLOGY_EXECUTOR_RECEIVE_BUFFER_SIZE,1024);
-        config.put(Config.TOPOLOGY_DISRUPTOR_BATCH_SIZE,1);
+        config.put(Config.TOPOLOGY_EXECUTOR_RECEIVE_BUFFER_SIZE, 1024);
+        config.put(Config.TOPOLOGY_DISRUPTOR_BATCH_SIZE, 1);
         config.put(Config.TOPOLOGY_DEBUG, false);
 
         cluster.submitTopology("count_topology", config, topology);

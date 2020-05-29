@@ -1,6 +1,8 @@
 package models;
 
-public class Subscription {
+import java.io.Serializable;
+
+public class Subscription implements Serializable {
     public String key;
     public String operator;
     public String value;
