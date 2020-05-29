@@ -9,6 +9,7 @@ import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
 import spouts.StockSpout;
 import spouts.SubscriptionSpout;
+import utils.Filenames;
 import utils.PublicationReader;
 import utils.SubscriptionReader;
 
@@ -22,12 +23,12 @@ public class App {
 
 
     static List<Publication> readPublications() {
-        PublicationReader reader = new PublicationReader();
+        PublicationReader reader = new PublicationReader(Filenames.PUBLICATIONS1);
         return reader.getPublications();
     }
 
     static List<Subscription> readSubscriptions() {
-        SubscriptionReader reader = new SubscriptionReader();
+        SubscriptionReader reader = new SubscriptionReader(Filenames.SUBSCRIPTIONS1);
         return reader.getSubscriptions();
     }
 

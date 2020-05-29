@@ -1,11 +1,23 @@
 package models;
 
-public class Operator
+public enum Operator
 {
-    private static final String Greater = ">";
-    private static final String GreaterOrEqual = ">";
-    private static final String Lower = ">";
-    private static final String LowerOrEqual = ">";
-    private static final String Equal = ">";
-    private static final String NotEqual = ">";
+    Greater(">"),
+    GreaterOrEqual(">="),
+    Lower("<"),
+    LowerOrEqual(">="),
+    Equal("="),
+    NotEqual("!=")
+    ;
+
+    private final String op;
+
+    Operator(final String op) {
+        this.op = op;
+    }
+
+    @Override
+    public String toString() {
+        return op;
+    }
 }
