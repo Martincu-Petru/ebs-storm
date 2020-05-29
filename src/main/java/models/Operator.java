@@ -5,7 +5,7 @@ public enum Operator
     Greater(">"),
     GreaterOrEqual(">="),
     Lower("<"),
-    LowerOrEqual(">="),
+    LowerOrEqual("<="),
     Equal("="),
     NotEqual("!=")
     ;
