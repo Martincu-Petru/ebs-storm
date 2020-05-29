@@ -1,14 +1,14 @@
 package OLD;
 
-import bolt.CountBolt;
+import bolts.CountBolt;
 import models.Publication;
 import models.Subscription;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
-import spout.StockSpout;
-import spout.SubscriptionSpout;
+import spouts.StockSpout;
+import spouts.SubscriptionSpout;
 import utils.PublicationReader;
 import utils.SubscriptionReader;
 

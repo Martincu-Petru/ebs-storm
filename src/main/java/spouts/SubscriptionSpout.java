@@ -1,4 +1,4 @@
-package spout;
+package spouts;
 
 
 import models.Subscription;
