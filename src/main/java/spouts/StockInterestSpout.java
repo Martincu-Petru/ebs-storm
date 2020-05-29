@@ -6,8 +6,8 @@ import org.apache.storm.tuple.Fields;
 
 import java.util.List;
 
-public class SubscriptionSpout extends CycleSpout<Subscription> {
-    public SubscriptionSpout(List<Subscription> subscriptions) {
+public class StockInterestSpout extends CycleSpout<Subscription> {
+    public StockInterestSpout(List<Subscription> subscriptions) {
         super(subscriptions, new Fields("subscription"));
     }
 

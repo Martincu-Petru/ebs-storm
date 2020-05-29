@@ -8,7 +8,7 @@ import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
 import spouts.StockSpout;
-import spouts.SubscriptionSpout;
+import spouts.StockInterestSpout;
 import utils.Filenames;
 import utils.PublicationReader;
 import utils.SubscriptionReader;
@@ -38,7 +38,7 @@ public class App {
 
         TopologyBuilder builder = new TopologyBuilder();
         builder.setSpout(PUB_SPOUT_ID, new StockSpout(publications));
-        builder.setSpout(SUB_SPOUT_ID, new SubscriptionSpout(subscriptions));
+        builder.setSpout(SUB_SPOUT_ID, new StockInterestSpout(subscriptions));
 
         builder.setBolt(COUNT_PUB_BOLT_ID, new CountBolt("publications")).allGrouping(PUB_SPOUT_ID);
         builder.setBolt(COUNT_SUB_BOLT_ID, new CountBolt("subscriptions")).allGrouping(SUB_SPOUT_ID);
