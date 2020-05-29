@@ -1,4 +1,5 @@
 package models;
 
-public class Value extends GenericFieldSubscription<Double> {
+public class Value extends GenericFieldSubscription<Double>
+{
 }

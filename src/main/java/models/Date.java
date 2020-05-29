@@ -1,4 +1,5 @@
 package models;
 
-public class Date extends GenericFieldSubscription<Date>  {
+public class Date extends GenericFieldSubscription<Date>
+{
 }

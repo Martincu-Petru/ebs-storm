@@ -1,6 +1,7 @@
 package models;
 
-public class Operator {
+public class Operator
+{
     private static final String Greater = ">";
     private static final String GreaterOrEqual = ">";
     private static final String Lower = ">";
