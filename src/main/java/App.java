@@ -3,6 +3,8 @@ import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
 import spouts.StockSpout;
+import utils.Filenames;
+import utils.PublicationReader;
 
 public class App
 {
@@ -17,9 +19,9 @@ public class App
         StormTopology topology = builder.createTopology();
         LocalCluster cluster = new LocalCluster();
 
-        builder.setSpout(SPOUT_ONE_ID, new StockSpout(null));
-        builder.setSpout(SPOUT_TWO_ID, new StockSpout(null));
-        builder.setSpout(SPOUT_THREE_ID, new StockSpout(null));
+        builder.setSpout(SPOUT_ONE_ID, new StockSpout(new PublicationReader(Filenames.PUBLICATIONS1).getPublications()));
+        builder.setSpout(SPOUT_TWO_ID, new StockSpout(new PublicationReader(Filenames.PUBLICATIONS2).getPublications()));
+        builder.setSpout(SPOUT_THREE_ID, new StockSpout(new PublicationReader(Filenames.PUBLICATIONS3).getPublications()));
 
         cluster.submitTopology("stocks_topology", config, topology);
         try {
