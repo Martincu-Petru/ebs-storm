@@ -1,12 +1,13 @@
 package models;
 
 import java.io.Serializable;
+import java.util.Date;
 
-public class Publication implements Serializable {
-
-    public double latitude;
-    public double longitude;
-    public double speed;
-    public String make;
-    public String color;
+public class Publication implements Serializable
+{
+    public String company;
+    public Double Value;
+    public Double drop;
+    public Double variation;
+    public Date date;
 }
