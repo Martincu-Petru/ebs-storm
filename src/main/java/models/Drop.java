@@ -1,4 +1,4 @@
 package models;
 
-public class Drop extends GenericFieldSubscription<Double, String>  {
+public class Drop extends GenericFieldSubscription<Double>  {
 }

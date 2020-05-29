@@ -1,4 +1,4 @@
 package models;
 
-public class Variation extends GenericFieldSubscription<Double, String>  {
+public class Variation extends GenericFieldSubscription<Double>  {
 }

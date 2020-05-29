@@ -1,6 +1,6 @@
 package models;
 
-public class GenericFieldSubscription<X, Y> {
-    public X Value;
-    public Y Operator;
+public class GenericFieldSubscription<X> {
+    public X value;
+    public Operator operator;
 }
