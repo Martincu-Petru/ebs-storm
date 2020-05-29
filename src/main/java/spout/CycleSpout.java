@@ -7,10 +7,11 @@ import org.apache.storm.topology.base.BaseRichSpout;
 import org.apache.storm.tuple.Fields;
 import org.apache.storm.tuple.Values;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-public class CycleSpout<T> extends BaseRichSpout {
+public class CycleSpout<T extends Serializable> extends BaseRichSpout {
 
     private SpoutOutputCollector collector;
     private int i = 0;
