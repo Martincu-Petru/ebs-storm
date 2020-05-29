@@ -12,7 +12,7 @@ public class App
         StormTopology topology = builder.createTopology();
         LocalCluster cluster = new LocalCluster();
 
-        cluster.submitTopology("trucks_topology", config, topology);
+        cluster.submitTopology("stocks_topology", config, topology);
         try {
             Thread.sleep(20000);
         } catch (InterruptedException e) {
@@ -20,7 +20,7 @@ public class App
             e.printStackTrace();
         }
 
-        cluster.killTopology("trucks_topology");
+        cluster.killTopology("stocks_topology");
         cluster.shutdown();
 
     }
