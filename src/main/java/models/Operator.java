@@ -6,7 +6,7 @@ public enum Operator
     GreaterOrEqual(">="),
     Lower("<"),
     LowerOrEqual("<="),
-    Equal("="),
+    Equal("=="),
     NotEqual("!=")
     ;
 

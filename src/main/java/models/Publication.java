@@ -10,4 +10,15 @@ public class Publication implements Serializable
     public Double drop;
     public Double variation;
     public Date date;
+
+    @Override
+    public String toString() {
+        return "Publication{" +
+                "company='" + company + '\'' +
+                ", value=" + value +
+                ", drop=" + drop +
+                ", variation=" + variation +
+                ", date=" + date +
+                '}';
+    }
 }
