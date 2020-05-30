@@ -6,9 +6,7 @@ import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
-import spouts.GoogleInterestSpout;
-import spouts.StockInterestSpout;
-import spouts.StockSpout;
+import spouts.*;
 import utils.Filenames;
 import utils.PublicationReader;
 import utils.SubscriptionReader;
@@ -23,8 +21,8 @@ public class App {
         LocalCluster cluster = new LocalCluster();
 
         // each subscriptions set has been generated with different constraints on the Company value (Yahoo, Microsoft, Google)
-        StockInterestSpout yahooInterests = new StockInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS1).getSubscriptions());
-        StockInterestSpout microsoftInterests = new StockInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS2).getSubscriptions());
+        YahooInterestSpout yahooInterests = new YahooInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS1).getSubscriptions());
+        MicrosoftInterestSpout microsoftInterests = new MicrosoftInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS2).getSubscriptions());
         GoogleInterestSpout googleInterests = new GoogleInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS3).getSubscriptions());
 
         // set the publications spouts

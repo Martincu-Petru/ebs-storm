@@ -3,7 +3,6 @@ package spouts;
 
 import models.Subscription;
 import org.apache.storm.tuple.Fields;
-import org.apache.storm.tuple.Values;
 
 import java.util.List;
 
