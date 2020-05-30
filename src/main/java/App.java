@@ -2,15 +2,21 @@ import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
 import org.apache.storm.topology.TopologyBuilder;
+import spouts.StockInterestSpout;
 import spouts.StockSpout;
 import utils.Filenames;
 import utils.PublicationReader;
+import utils.SubscriptionReader;
 
 public class App
 {
     private static final String SPOUT_ONE_ID = "publishers_source_1";
     private static final String SPOUT_TWO_ID = "publishers_source_2";
     private static final String SPOUT_THREE_ID = "publishers_source_3";
+
+    private static final String YAHOO_INTEREST_ID = "yahoo_subscription";
+    private static final String MICROSOFT_INTEREST_ID = "microsoft_subscription";
+    private static final String GOOGLE_INTEREST_ID = "google_subscription";
 
     public static void main(String[] args)
     {
@@ -22,6 +28,10 @@ public class App
         builder.setSpout(SPOUT_ONE_ID, new StockSpout(new PublicationReader(Filenames.PUBLICATIONS1).getPublications()));
         builder.setSpout(SPOUT_TWO_ID, new StockSpout(new PublicationReader(Filenames.PUBLICATIONS2).getPublications()));
         builder.setSpout(SPOUT_THREE_ID, new StockSpout(new PublicationReader(Filenames.PUBLICATIONS3).getPublications()));
+
+        builder.setSpout(YAHOO_INTEREST_ID, new StockInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS1).getSubscriptions()));
+        builder.setSpout(MICROSOFT_INTEREST_ID, new StockInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS2).getSubscriptions()));
+        builder.setSpout(GOOGLE_INTEREST_ID, new StockInterestSpout(new SubscriptionReader(Filenames.SUBSCRIPTIONS3).getSubscriptions()));
 
         cluster.submitTopology("stocks_topology", config, topology);
         try {
