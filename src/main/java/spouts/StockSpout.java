@@ -3,6 +3,7 @@ package spouts;
 
 import models.Publication;
 import org.apache.storm.tuple.Fields;
+import org.apache.storm.tuple.Values;
 
 import java.util.List;
 

@@ -11,12 +11,12 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-public class CycleSpout<T extends Serializable> extends BaseRichSpout {
+public abstract class CycleSpout<T extends Serializable> extends BaseRichSpout {
 
-    private SpoutOutputCollector collector;
+    protected SpoutOutputCollector collector;
     private int i = 0;
-    private List<T> items;
-    private Fields fields;
+    protected List<T> items;
+    protected Fields fields;
 
     CycleSpout(List<T> items, Fields declaredFields) {
         this.items = items;
@@ -28,12 +28,15 @@ public class CycleSpout<T extends Serializable> extends BaseRichSpout {
         this.collector = collector;
     }
 
+    protected void emit(Values values) {
+        collector.emit(values);
+    }
     public void nextTuple() {
 
         if (i == items.size()) {
             i = 0;
         }
-        this.collector.emit(new Values(items.get(i)));
+        this.emit(new Values(items.get(i)));
         i++;
 
         try {
