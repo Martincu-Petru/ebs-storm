@@ -1,4 +1,4 @@
-package spouts;
+package bolts;
 
 public class YahooApp {
 }
