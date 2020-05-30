@@ -12,6 +12,6 @@ public class ComponentIds {
 
     public static final String FILTER_BOLT_ID = "filter_bolt_id";
     public static final String GOOGLE_APP_ID = "google_app_id";
-    public static final String MICROSOFT_APP_ID = "google_app_id";
+    public static final String MICROSOFT_APP_ID = "microsoft_app_id";
     public static final String YAHOO_APP_ID = "yahoo_app_id";
 }

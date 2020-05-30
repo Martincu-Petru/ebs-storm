@@ -45,6 +45,14 @@ public class App {
                 .directGrouping(FILTER_BOLT_ID, "pubs1")
                 .directGrouping(GOOGLE_INTEREST_ID, "subs");
 
+        builder.setBolt(MICROSOFT_APP_ID, new GoogleApp())
+                .directGrouping(FILTER_BOLT_ID, "pubs2")
+                .directGrouping(GOOGLE_INTEREST_ID, "subs");
+
+        builder.setBolt(YAHOO_APP_ID, new GoogleApp())
+                .directGrouping(FILTER_BOLT_ID, "pubs3")
+                .directGrouping(GOOGLE_INTEREST_ID, "subs");
+
 
 
         // fine tuning
