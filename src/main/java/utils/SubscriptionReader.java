@@ -119,7 +119,7 @@ public class SubscriptionReader {
                 return Operator.Lower;
             case "<=":
                 return Operator.LowerOrEqual;
-            case "=":
+            case "==":
                 return Operator.Equal;
             case "!=":
                 return Operator.NotEqual;

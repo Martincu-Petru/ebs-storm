@@ -9,4 +9,15 @@ public class Subscription implements Serializable
     public Drop drop;
     public Value value;
     public Variation variation;
+
+    @Override
+    public String toString() {
+        return "Subscription{" +
+                "company=" + company +
+                ", date=" + date +
+                ", drop=" + drop +
+                ", value=" + value +
+                ", variation=" + variation +
+                '}';
+    }
 }
