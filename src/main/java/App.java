@@ -1,5 +1,7 @@
 import bolts.FilterBolt;
 import bolts.GoogleApp;
+import bolts.MicrosoftApp;
+import bolts.YahooApp;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
@@ -45,11 +47,11 @@ public class App {
                 .directGrouping(FILTER_BOLT_ID, "pubs1")
                 .directGrouping(GOOGLE_INTEREST_ID, "subs");
 
-        builder.setBolt(MICROSOFT_APP_ID, new GoogleApp())
+        builder.setBolt(MICROSOFT_APP_ID, new MicrosoftApp())
                 .directGrouping(FILTER_BOLT_ID, "pubs2")
                 .directGrouping(MICROSOFT_INTEREST_ID, "subs");
 
-        builder.setBolt(YAHOO_APP_ID, new GoogleApp())
+        builder.setBolt(YAHOO_APP_ID, new YahooApp())
                 .directGrouping(FILTER_BOLT_ID, "pubs3")
                 .directGrouping(YAHOO_INTEREST_ID, "subs");
 
