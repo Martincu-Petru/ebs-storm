@@ -19,17 +19,18 @@ public class FilterBolt extends BaseRichBolt {
 
     private void handleSubscription(Tuple tuple) {
         Subscription sub = (Subscription)tuple.getValueByField("subscription");
-        System.out.println(sub);
+        System.out.println("[FILTER BOLT] handle subscription " + sub);
         // TODO: route subscription to other nodes
     }
 
     private void handlePublication(Tuple tuple) {
         Publication pub = (Publication)tuple.getValueByField("stock");
-        System.out.println(pub);
+        System.out.println("[FILTER BOLT] handle publication " + pub);
         // TODO: route publication to subscriptions stored in routing table
     }
     @Override
     public void execute(Tuple tuple) {
+        System.out.println(tuple);
         String tupleSource = tuple.getSourceStreamId();
         if (tupleSource.equals("subs")) {
             this.handleSubscription(tuple);
@@ -42,8 +43,8 @@ public class FilterBolt extends BaseRichBolt {
     @Override
     public void declareOutputFields(OutputFieldsDeclarer declarer) {
         declarer.declareStream("filters", true, new Fields("subscription"));
-        declarer.declareStream("pub1", true, new Fields("stock"));
-        declarer.declareStream("pub2", true, new Fields("stock"));
-        declarer.declareStream("pub3", true, new Fields("stock"));
+        declarer.declareStream("pubs1", true, new Fields("stock"));
+        declarer.declareStream("pubs2", true, new Fields("stock"));
+        declarer.declareStream("pubs3", true, new Fields("stock"));
     }
 }

@@ -18,7 +18,6 @@ public class App {
     public static void main(String[] args) {
         TopologyBuilder builder = new TopologyBuilder();
         Config config = new Config();
-        StormTopology topology = builder.createTopology();
         LocalCluster cluster = new LocalCluster();
 
         // each subscriptions set has been generated with different constraints on the Company value (Yahoo, Microsoft, Google)
@@ -43,10 +42,18 @@ public class App {
                 .directGrouping(GOOGLE_APP_ID, "subs");
 
         builder.setBolt(GOOGLE_APP_ID, new GoogleApp())
-                .directGrouping(FILTER_BOLT_ID, "pubs")
+                .directGrouping(FILTER_BOLT_ID, "pubs1")
                 .directGrouping(GOOGLE_INTEREST_ID, "subs");
 
-        cluster.submitTopology("stocks_topology", config, topology);
+
+
+        // fine tuning
+        config.put(Config.TOPOLOGY_EXECUTOR_RECEIVE_BUFFER_SIZE, 1024);
+        config.put(Config.TOPOLOGY_DISRUPTOR_BATCH_SIZE, 1);
+        config.put(Config.TOPOLOGY_DEBUG, false);
+
+        StormTopology topology = builder.createTopology();
+        cluster.submitTopology("count_topology", config, topology);
         // run for 20 seconds
         try {
             Thread.sleep(20000);

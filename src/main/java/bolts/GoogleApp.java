@@ -17,7 +17,7 @@ public class GoogleApp extends BaseRichBolt {
 
     @Override
     public void execute(Tuple tuple) {
-
+        System.out.println("[Google App] handle subscription " + tuple);
     }
 
     @Override

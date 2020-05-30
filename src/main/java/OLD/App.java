@@ -48,10 +48,6 @@ public class App {
         LocalCluster cluster = new LocalCluster();
         StormTopology topology = builder.createTopology();
 
-        // fine tuning
-        config.put(Config.TOPOLOGY_EXECUTOR_RECEIVE_BUFFER_SIZE, 1024);
-        config.put(Config.TOPOLOGY_DISRUPTOR_BATCH_SIZE, 1);
-        config.put(Config.TOPOLOGY_DEBUG, false);
 
         cluster.submitTopology("count_topology", config, topology);
 
